@@ -1,0 +1,238 @@
+[
+  {
+    "type": "block_comment",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "comment",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "block_comment",
+          "named": true
+        },
+        {
+          "type": "doc_comment",
+          "named": true
+        },
+        {
+          "type": "line_comment",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "definition",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "definition_command",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "doc_comment",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "entity_name",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "source_file",
+    "named": true,
+    "root": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "comment",
+          "named": true
+        },
+        {
+          "type": "constant_language",
+          "named": true
+        },
+        {
+          "type": "constant_numeric",
+          "named": true
+        },
+        {
+          "type": "definition",
+          "named": true
+        },
+        {
+          "type": "definition_command",
+          "named": true
+        },
+        {
+          "type": "entity_name",
+          "named": true
+        },
+        {
+          "type": "illegal",
+          "named": true
+        },
+        {
+          "type": "keyword",
+          "named": true
+        },
+        {
+          "type": "modifier_storage",
+          "named": true
+        },
+        {
+          "type": "string_double",
+          "named": true
+        },
+        {
+          "type": "string_interpolated",
+          "named": true
+        },
+        {
+          "type": "type_storage",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "string_double",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "string_interpolated",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "source_file",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": " ",
+    "named": false
+  },
+  {
+    "type": "\"",
+    "named": false
+  },
+  {
+    "type": "(s!)\"",
+    "named": false
+  },
+  {
+    "type": "/-",
+    "named": false
+  },
+  {
+    "type": "/--",
+    "named": false
+  },
+  {
+    "type": "abbrev",
+    "named": false
+  },
+  {
+    "type": "axiom",
+    "named": false
+  },
+  {
+    "type": "class",
+    "named": false
+  },
+  {
+    "type": "coinductive",
+    "named": false
+  },
+  {
+    "type": "constant",
+    "named": false
+  },
+  {
+    "type": "constant_language",
+    "named": true
+  },
+  {
+    "type": "constant_numeric",
+    "named": true
+  },
+  {
+    "type": "def",
+    "named": false
+  },
+  {
+    "type": "illegal",
+    "named": true
+  },
+  {
+    "type": "inductive",
+    "named": false
+  },
+  {
+    "type": "instance",
+    "named": false
+  },
+  {
+    "type": "keyword",
+    "named": true
+  },
+  {
+    "type": "lemma",
+    "named": false
+  },
+  {
+    "type": "line_comment",
+    "named": true
+  },
+  {
+    "type": "modifier_storage",
+    "named": true
+  },
+  {
+    "type": "structure",
+    "named": false
+  },
+  {
+    "type": "theorem",
+    "named": false
+  },
+  {
+    "type": "type_storage",
+    "named": true
+  },
+  {
+    "type": "{",
+    "named": false
+  },
+  {
+    "type": "}",
+    "named": false
+  },
+  {
+    "type": "«",
+    "named": false
+  },
+  {
+    "type": "»",
+    "named": false
+  }
+]
